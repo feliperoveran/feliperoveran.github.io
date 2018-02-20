@@ -1,0 +1,29 @@
+# Site settings
+title: Llamas Can Code
+email: feliperoveran@gmail.com
+description: The real proof that llamas can actually code
+baseurl: ""
+url: "http://feliperoveran.github.io"
+
+author:
+  name     : 'Felipe Roveran'
+  email    : feliperoveran@gmail.com
+  twitter  : http://twitter.com/nandomoreirame
+  linkedin : https://www.linkedin.com/in/felipe-roveran-ribeiro-9bb98097/
+  bitbucket: https://bitbucket.org/feliperoveran/
+
+github: https://github.com/feliperoveran
+disqus_shortname: 'llamascancode'
+# google_analytics: UA-52446115-1
+
+paginate: 2
+comments: true
+paginate_path: '/page/:num'
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Build settings
+markdown  : kramdown
+permalink : /:title/
